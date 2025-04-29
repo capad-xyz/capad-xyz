@@ -1,7 +1,6 @@
 <h1 align="left">Hi 👋! My name is Aadarsh Upadhyay</h1>
 
 <p>🚀 On the Path to Full Stack Mastery</p>
-<p>🧑🏻‍🎓 Currently a Freshmen at The Maharaja Sayajirao University Of Baroda</p>
 
 <h2>🧑🏻‍💻 Tech Stack:</h2>
 
