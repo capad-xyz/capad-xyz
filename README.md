@@ -14,9 +14,16 @@ Right now I'm building an open web-retrieval layer for AI agents, a git review c
 
 **[beep-beep-oss](https://github.com/capad-xyz/beep-beep-oss)** - An open-source take on a better messaging client. Rust, in progress.
 
-## Tech I build with
+## Stack
 
-Python and Rust for tools and engines, TypeScript + Svelte for interfaces, Kotlin for Android. Tauri for desktop, MCP and CLIs for agent tooling, Cloudflare at the edge.
+| Area              | Tools                            |
+| ----------------- | -------------------------------- |
+| Libraries, agents | Python, MCP                      |
+| Desktop apps      | Rust, Tauri, Svelte, TypeScript  |
+| Mobile            | Kotlin, Android                  |
+| Infra, tooling    | Cloudflare, Git, GitHub Actions  |
+
+Everything here is in active use across the projects above, not a wishlist.
 
 ## Reach me
 
