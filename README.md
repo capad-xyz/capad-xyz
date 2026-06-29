@@ -2,6 +2,8 @@
 
 I build developer tools and desktop apps: small, fast, genuinely-free software for people who live in a terminal and an editor. Most of what I make is open source and keyless by default.
 
+I came up through full-stack web work and kept drifting lower in the stack, toward the close-to-the-metal things: web unlockers, git internals, on-device Android hacks. I like building the unglamorous infrastructure that other tools quietly lean on.
+
 Right now I'm building an open web-retrieval layer for AI agents, a git review companion, and a few things for the Nothing Phone.
 
 ## Featured projects
@@ -14,18 +16,42 @@ Right now I'm building an open web-retrieval layer for AI agents, a git review c
 
 **[beep-beep-oss](https://github.com/capad-xyz/beep-beep-oss)** - An open-source take on a better messaging client. Rust, in progress.
 
-## Stack
+## What I work in
 
-| Area              | Tools                            |
-| ----------------- | -------------------------------- |
-| Libraries, agents | Python, MCP                      |
-| Desktop apps      | Rust, Tauri, Svelte, TypeScript  |
-| Mobile            | Kotlin, Android                  |
-| Infra, tooling    | Cloudflare, Git, GitHub Actions  |
+Day to day I reach for:
 
-Everything here is in active use across the projects above, not a wishlist.
+| Area              | Tools                                   |
+| ----------------- | --------------------------------------- |
+| Libraries, agents | Python, MCP                             |
+| Desktop apps      | Rust, Tauri, Svelte, TypeScript         |
+| Mobile            | Kotlin, Android                         |
+| Infra, tooling    | Cloudflare, Git, GitHub Actions, ffmpeg |
+
+<details>
+<summary><b>The fuller toolbox</b> (also comfortable in)</summary>
+
+<br>
+
+- **Web:** React, Next.js, Redux, Node, Express, Tailwind, Material UI, Bulma, HTML, CSS
+- **Data:** PostgreSQL, MongoDB, Firebase, Sanity
+- **Languages:** JavaScript, TypeScript, Python, Rust, Kotlin, C
+- **Build and tooling:** Webpack, Babel, npm, Git (GitHub / GitLab / Bitbucket)
+- **Design:** Figma, Canva
+
+</details>
+
+## Off the clock
+
+I tinker with my Nothing Phone (custom Glyph Matrix experiments), build in public, and have a soft spot for tools that do one thing fast and then get out of the way.
+
+## Activity
+
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=capad-xyz&show_icons=true&hide_border=true&theme=dark" height="160" alt="capad's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=capad-xyz&layout=compact&hide_border=true&theme=dark" height="160" alt="capad's most-used languages" />
+</p>
 
 ## Reach me
 
 - Email: hi@capad.fyi
-- Open an issue on any of the repos above
+- Or open an issue on any of the repos above
