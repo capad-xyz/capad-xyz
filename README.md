@@ -44,13 +44,6 @@ Day to day I reach for:
 
 I tinker with my Nothing Phone (custom Glyph Matrix experiments), build in public, and have a soft spot for tools that do one thing fast and then get out of the way.
 
-## Activity
-
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=capad-xyz&show_icons=true&hide_border=true&theme=dark" height="160" alt="capad's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=capad-xyz&layout=compact&hide_border=true&theme=dark" height="160" alt="capad's most-used languages" />
-</p>
-
 ## Reach me
 
 - Email: hi@capad.fyi
