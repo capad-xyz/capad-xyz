@@ -1,4 +1,4 @@
-### Hi, I'm capad
+### Hi, I'm Aadarsh
 
 I build developer tools and desktop apps: small, fast, genuinely-free software for people who live in a terminal and an editor. Most of what I make is open source and keyless by default.
 
