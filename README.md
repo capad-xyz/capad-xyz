@@ -10,7 +10,7 @@ Right now I'm building an open web-retrieval layer for AI agents, local AI usage
 
 ## Featured projects
 
-**[searchts](https://github.com/capad-xyz/searchts)** - The missing layer between AI and the web. An escalating open-source unlocker (browser-fingerprinted fetch, JS-render relay, stealth browser) plus keyless read / search / transcribe / grab across the open web, GitHub, YouTube, Reddit, Twitter, LinkedIn, and RSS. Ships as a CLI, an MCP server, and a Claude Code skill. Python, MIT, on PyPI.
+**[searchts](https://github.com/capad-xyz/searchts)** - The missing layer between AI and the web. An escalating open-source unlocker (browser-fingerprinted fetch, JS-render relay, stealth browser, human-in-the-loop CAPTCHA) that gets agents past Cloudflare, PerimeterX, and DataDome. Decodes AI-chat share links no generic reader can (ChatGPT, Claude, Gemini, Grok, Poe -> complete role-labeled conversations), plus keyless read / search / transcribe / grab across the open web, GitHub, YouTube, Reddit, Twitter, LinkedIn, and RSS, with prompt-injection scrubbing built in. Ships as a CLI, an MCP server, and a Claude Code skill. Python, MIT, on PyPI.
 
 **[burncard](https://github.com/capad-xyz/burncard)** - Accurate local AI usage telemetry for Claude Code and Codex: see what your agent sessions actually used and cost, computed from your own logs on your own machine. `npx burncard`. TypeScript.
 
