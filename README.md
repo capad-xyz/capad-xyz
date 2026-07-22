@@ -26,13 +26,15 @@ Smaller delights: CoffeeBreath (a Rainmeter music widget that pulls the accent c
 
 Day to day I reach for:
 
-| Area              | Tools                                        |
-| ----------------- | -------------------------------------------- |
-| Agents, libraries | Python, TypeScript, MCP                      |
-| Desktop apps      | Rust, Tauri, Svelte, TypeScript              |
-| Mobile            | Kotlin, Android                              |
-| Web platforms     | React, Next.js, Node, Express, MongoDB       |
-| Infra, tooling    | Cloudflare, AWS, GitHub Actions, git, ffmpeg |
+| Area                 | Tools                                                                           |
+| -------------------- | ------------------------------------------------------------------------------- |
+| Web (daily driver)   | React, Next.js, TypeScript, Tailwind, Node, Express, MongoDB                    |
+| AI-assisted dev      | Claude Code (power user), Codex, DeepSeek, custom MCP servers, agent harnesses  |
+| AI engineering       | Agentic assistants with safety-gated actions, multi-provider LLM APIs (OpenAI / Gemini / Claude), usage and cost telemetry |
+| Agents, libraries    | Python, TypeScript, MCP                                                         |
+| Desktop apps         | Rust, Tauri, Svelte                                                             |
+| Mobile               | Kotlin, Android; React Native (Expo)                                            |
+| Infra, tooling       | Cloudflare, AWS, GitHub Actions, git, ffmpeg                                    |
 
 <details>
 <summary><b>The fuller toolbox</b> (also comfortable in)</summary>
