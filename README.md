@@ -14,7 +14,7 @@ Right now I'm building an open web-retrieval layer for AI agents, local AI usage
 
 **[burncard](https://github.com/capad-xyz/burncard)** - Accurate local AI usage telemetry for Claude Code and Codex: see what your agent sessions actually used and cost, computed from your own logs on your own machine. `npx burncard`. TypeScript.
 
-**[Grove](https://github.com/capad-xyz/grove)** - A genuinely-free git review companion that sits beside your AI editor: a custom SVG commit graph, real diffs (even on merge commits), blame, instant spotlight search, and a worktree-first dashboard for when several agents are running at once. Rust + Tauri + Svelte 5, GPL-3.0.
+**[Grove](https://github.com/capad-xyz/grove)** - A genuinely-free git review companion that sits beside your AI editor: a custom SVG commit graph, real diffs (even on merge commits), blame, instant spotlight search, and a worktree-first dashboard for when several agents are running at once. Electron + React + TypeScript on a headless Node git engine, GPL-3.0.
 
 **[GlyphMaps](https://github.com/capad-xyz/GlyphMaps)** - Mirror Google Maps turn-by-turn directions onto the 137-LED Glyph Matrix on the back of a Nothing Phone (4a) Pro, so you glance at the back of your phone instead of the screen. Built on a reverse-engineered notification pipeline and an unthrottled matrix path the official API doesn't give you. Shipped v1.0.0, signed APK on Releases. Kotlin, AGPL-3.0.
 
@@ -32,7 +32,7 @@ Day to day I reach for:
 | AI-assisted dev      | Claude Code (power user), Codex, DeepSeek, custom MCP servers, agent harnesses  |
 | AI engineering       | Agentic assistants with safety-gated actions, multi-provider LLM APIs (OpenAI / Gemini / Claude), usage and cost telemetry |
 | Agents, libraries    | Python, TypeScript, MCP                                                         |
-| Desktop apps         | Rust, Tauri, Svelte                                                             |
+| Desktop apps         | Electron, React, TypeScript; Rust, Tauri                                                             |
 | Mobile               | Kotlin, Android; React Native (Expo)                                            |
 | Infra, tooling       | Cloudflare, AWS, GitHub Actions, git, ffmpeg                                    |
 
