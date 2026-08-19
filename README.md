@@ -54,22 +54,14 @@ Day to day I reach for:
 
 
 
-| Area                 | Tools                                                                           |
-
-| -------------------- | ------------------------------------------------------------------------------- |
-
-| Web (daily driver)   | React, Next.js, TypeScript, Tailwind, Node, Express, MongoDB                    |
-
-| AI-assisted dev      | Claude Code (power user), Codex, DeepSeek, custom MCP servers, agent harnesses  |
-
-| AI engineering       | Agentic assistants with safety-gated actions, multi-provider LLM APIs (OpenAI / Gemini / Claude), usage and cost telemetry |
-
-| Agents, libraries    | Python, TypeScript, MCP                                                         |
-
-| Desktop apps         | Electron, React, TypeScript; Rust, Tauri                                                             |
-
-| Mobile               | Kotlin, Android; React Native (Expo)                                            |
-
+| Area                 | Tools                                                                           |
+| -------------------- | ------------------------------------------------------------------------------- |
+| Web (daily driver)   | React, Next.js, TypeScript, Tailwind, Node, Express, MongoDB                    |
+| AI-assisted dev      | Claude Code (power user), Codex, DeepSeek, custom MCP servers, agent harnesses  |
+| AI engineering       | Agentic assistants with safety-gated actions, multi-provider LLM APIs (OpenAI / Gemini / Claude), usage and cost telemetry |
+| Agents, libraries    | Python, TypeScript, MCP                                                         |
+| Desktop apps         | Electron, React, TypeScript; Rust, Tauri                                                             |
+| Mobile               | Kotlin, Android; React Native (Expo)                                            |
 | Infra, tooling       | Cloudflare, AWS, GitHub Actions, git, ffmpeg, Tailscale, OpenSSH                                    |
 
 
