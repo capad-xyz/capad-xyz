@@ -1,69 +1,68 @@
-### Hi, I'm Aadarsh (aka "capad", just the name I like to go by online)
+### Aadarsh Upadhyay
 
-I build developer tools and desktop apps: small, fast, genuinely-free software for people who live in a terminal and an editor. Most of what I make is open source and keyless by default.
+capad · [capad.fyi](https://capad.fyi) · [oss@capad.fyi](mailto:oss@capad.fyi) · [@aadarsh_io](https://x.com/aadarsh_io) · [LinkedIn](https://www.linkedin.com/in/aadarshupadhyay/)
 
-I came up through full-stack web work and kept drifting lower in the stack, toward the close-to-the-metal things: web unlockers, git internals, on-device Android hacks. I like building the unglamorous infrastructure that other tools quietly lean on.
+I build the tools that should not need to exist. The ones that do frustrated me into building better ones: small, fast, free, and yours to keep. Most of what I ship is open source and keyless by default.
 
-I'm a software engineer and architect. Most recently I designed and built an agentic AI compliance platform end to end: a tool-calling assistant with safety-gated write actions (propose-then-confirm, server-side re-validation, audit logging), a deterministic statutory-deadline engine, and a multi-provider LLM layer (OpenAI / Gemini / Claude) with cost accounting and admin-governed model routing. Before that: transcription, document-AI / OCR, and AI avatar platforms across React, React Native, Node, Python, MongoDB, and AWS.
+I came up through full-stack web work and kept drifting lower: web unlockers, git internals, on-device Android. Software engineer and architect. Most recently I designed and built [ComplyV](https://capad.fyi) (formerly Compliance Sarathi) at Appson, Jan–31 Jul 2026: an agentic compliance assistant whose writes are propose-then-confirm, re-checked on the server, and audit-logged. Before that, the Wordibly transcript editor. Finishing a BCA (Honours) at The Maharaja Sayajirao University of Baroda, expected 2028.
 
-Right now I'm building an open web-retrieval layer for AI agents, local AI usage telemetry, a git review companion, and a few things for the Nothing Phone.
+## Now
 
-## Featured projects
+| | |
+| --- | --- |
+| **[searchts](https://github.com/capad-xyz/searchts)** | Keyless web layer for agents. PyPI **0.13.0**, CLI + MCP. |
+| **Hare** | Review-and-report GitHub App, dogfooded on searchts. Not a SaaS. |
+| **[Grove](https://github.com/capad-xyz/grove)** | Git review beside the AI editor. |
+| **[GlyphMaps](https://github.com/capad-xyz/GlyphMaps)** | Next turn on the Nothing Glyph Matrix. |
+| **[Dooper](https://github.com/capad-xyz/beep-beep-oss)** | Self-hostable inbox. Repo is `beep-beep-oss`. |
 
-**[searchts](https://github.com/capad-xyz/searchts)** — Keyless web layer for agents: fetch a URL or admit you can't. Escalating unlocker (fingerprinted curl, Jina relay, stealth Chromium) with fail-loud thin pages and login walls — honest scorecard, not a fake 100%. Decodes AI-chat share links (ChatGPT, Claude, Gemini, Grok, Poe, …) into full conversations. CLI, MCP 2.x server, Claude Code skill. Try: `uvx --from "searchts[mcp]" searchts`. Python, MIT, [0.8 on PyPI](https://pypi.org/project/searchts/).
+## Featured
 
-**[burncard](https://github.com/capad-xyz/burncard)** - Accurate local AI usage telemetry for Claude Code and Codex: see what your agent sessions actually used and cost, computed from your own logs on your own machine. `npx burncard`. TypeScript.
+**[searchts](https://github.com/capad-xyz/searchts)** — Fetch a URL or admit you cannot. Escalating unlocker (fingerprinted curl, Jina relay, stealth Chromium), fail-loud on thin pages and login walls. Decodes ChatGPT, Claude, Gemini, Grok, and Poe share links into the full conversation. CLI, MCP 2.x, Claude Code skill. `uvx --from "searchts[mcp]" searchts`. Python, MIT, [0.13.0 on PyPI](https://pypi.org/project/searchts/).
 
-**[Grove](https://github.com/capad-xyz/grove)** - A genuinely-free git review companion that sits beside your AI editor: a custom SVG commit graph, real diffs (even on merge commits), blame, instant spotlight search, and a worktree-first dashboard for when several agents are running at once. Electron + React + TypeScript on a headless Node git engine, GPL-3.0.
+**[GlyphMaps](https://github.com/capad-xyz/GlyphMaps)** — Google Maps next-turn on the 137-LED Glyph Matrix of a Nothing Phone (4a) Pro, so the phone can sit face down. No Maps API key. Skips the throttled Glyph Toy path, holds the matrix only while navigating, then gives it back. Signed APK, v1.0.0. Kotlin, AGPL-3.0.
 
-**[GlyphMaps](https://github.com/capad-xyz/GlyphMaps)** - Mirror Google Maps turn-by-turn directions onto the 137-LED Glyph Matrix on the back of a Nothing Phone (4a) Pro, so you glance at the back of your phone instead of the screen. Built on a reverse-engineered notification pipeline and an unthrottled matrix path the official API doesn't give you. Shipped v1.0.0, signed APK on Releases. Kotlin, AGPL-3.0.
+**[Grove](https://github.com/capad-xyz/grove)** — A free git review companion beside the editor: lane-drawn commit graph, real diffs, find-in-diff, live refresh, worktree-first when several agents are in flight. Electron, React, TypeScript, headless Node git engine. GPL-3.0, alpha.
 
-**[beep-beep-oss](https://github.com/capad-xyz/beep-beep-oss)** - An open-source, self-hostable universal chat client: all your messaging networks in one native inbox, nothing gated behind a paywall. Beeper's core architecture rebuilt in the open: Matrix homeserver + mautrix bridges + a native Tauri / Rust client. Already a working two-way WhatsApp messenger. AGPL-3.0, in progress.
+**[Dooper](https://github.com/capad-xyz/beep-beep-oss)** — Self-hostable universal inbox: Synapse, mautrix bridges, a Tauri 2 client. Phase 1 verified on real bridged WhatsApp (login, inbox, history, optimistic send, session persistence). Product name Dooper; repo `beep-beep-oss`. AGPL-3.0.
 
-Smaller delights: CoffeeBreath (a Rainmeter music widget that pulls the accent color from the current album art and breathes with the song), a glass Discord voice overlay for the desktop, and [capad.fyi](https://capad.fyi), a from-scratch Next.js + WebGL portfolio.
+**[burncard](https://github.com/capad-xyz/burncard)** — Local AI usage telemetry for Claude Code and Codex, computed from your own logs. `npx burncard`. TypeScript.
+
+**Hare** — A review-and-report GitHub App (`@hare`) I dogfood on searchts. Summary, severity findings, inline bubbles, grounded in the diff and CI. Comment only. Not a SaaS, and not a CodeRabbit claim. Hare Bot is the separate chat-side template.
+
+Also: [capad.fyi](https://capad.fyi) (Next.js, liquid-glass, Sanity), a Halls of Residence register prototype at [msu.capad.fyi](https://msu.capad.fyi), CoffeeBreath (a Rainmeter widget that takes its color from the album art), and a glass Discord voice overlay.
+
+## Elsewhere
+
+Contributor on [wmux](https://github.com/amirlehmam/wmux), not my project. As of 2 Oct 2026: 4 merged PRs (#135, #138, #153, #258) and 8 closed issues, mostly diff-pane freezes, CLI timeouts, and agent-browser install discovery.
 
 ## What I work in
 
-Day to day I reach for:
-
-| Area                 | Tools                                                                           |
-| -------------------- | ------------------------------------------------------------------------------- |
-| Web (daily driver)   | React, Next.js, TypeScript, Tailwind, Node, Express, MongoDB                    |
-| AI-assisted dev      | Claude Code (power user), Codex, DeepSeek, custom MCP servers, agent harnesses  |
-| AI engineering       | Agentic assistants with safety-gated actions, multi-provider LLM APIs (OpenAI / Gemini / Claude), usage and cost telemetry |
-| Agents, libraries    | Python, TypeScript, MCP                                                         |
-| Desktop apps         | Electron, React, TypeScript; Rust, Tauri                                                             |
-| Mobile               | Kotlin, Android; React Native (Expo)                                            |
-| Infra, tooling       | Cloudflare, AWS, GitHub Actions, git, ffmpeg, Tailscale, OpenSSH                                    |
+| Area | Tools |
+| --- | --- |
+| Web | React, Next.js, TypeScript, Tailwind, Node, Express, MongoDB |
+| Agents | Python, MCP, custom skills, AGENTS.md, runbooks |
+| AI shipping | Propose-then-confirm writes, multi-provider LLMs, usage and cost accounting |
+| Desktop | Electron, Tauri, React |
+| Mobile | Kotlin, Android |
+| Infra | Cloudflare Workers, GitHub Actions, AWS, git |
 
 <details>
-<summary><b>The fuller toolbox</b> (also comfortable in)</summary>
+<summary><b>Also comfortable in</b></summary>
 
 <br>
 
-- **Web:** React, Next.js, Redux, Node, Express, Tailwind, Material UI, HTML, CSS
-- **Motion and graphics:** GSAP, Motion, Lenis, SVG, WebGL (React Three Fiber)
-- **Data:** MongoDB, PostgreSQL, Firebase, Sanity
-- **AI:** multi-provider LLM integration (OpenAI, Gemini, Claude), agentic assistants with safety-gated actions, MCP servers, Claude Code skills, LLM training work
-- **Languages:** TypeScript, JavaScript, Python, Rust, Kotlin, Lua, C
-- **Build and tooling:** Docker, Webpack, npm, PyPI, Vercel, Git (GitHub / GitLab / Bitbucket), Tailscale, OpenSSH, wmux
-- **Design:** Figma, Canva
+React Three Fiber, GSAP, Motion, WebGL, PostgreSQL, Firebase, Sanity, Rust and Kotlin with AI assist, Docker, Figma.
 
 </details>
 
 ## How I work
 
-- Proof-first: a throwaway benchmark or prototype greenlights the approach before any integration.
-- Reverse-engineering when there is no API: Maps' notification format, bot-wall fingerprints, bridge behavior.
-- Everything ships with CI, real releases (PyPI, signed APKs), and a plain-English write-up.
-- Free and open by default: MIT, GPL, or AGPL, chosen deliberately per project.
-
-## Off the clock
-
-I tinker with my Nothing Phone (custom Glyph Matrix experiments), build in public, and have a soft spot for tools that do one thing fast and then get out of the way.
+- Proof first. A throwaway benchmark greenlights the approach before integration.
+- Reverse-engineer when there is no API: Maps notifications, bot-wall fingerprints, bridge behavior.
+- Ship with CI, a real release (PyPI, a signed APK), and a plain write-up.
+- License picked on purpose: MIT, GPL, or AGPL.
 
 ## Reach me
 
-- Portfolio: [capad.fyi](https://capad.fyi)
-- Email: hi@capad.fyi
-- Or open an issue on any of the repos above
+Portfolio [capad.fyi](https://capad.fyi) · email [oss@capad.fyi](mailto:oss@capad.fyi) · or open an issue on any repo above.
