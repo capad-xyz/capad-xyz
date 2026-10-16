@@ -10,7 +10,7 @@ I came up through full-stack web work and kept drifting lower: web unlockers, gi
 
 | | |
 | --- | --- |
-| **[searchts](https://github.com/capad-xyz/searchts)** | Keyless web layer for agents. PyPI **0.13.0**, CLI + MCP. |
+| **[searchts](https://github.com/capad-xyz/searchts)** | Keyless web layer for agents. PyPI **0.15.0**, CLI + MCP. |
 | **Hare** | Review-and-report GitHub App, dogfooded on searchts. Not a SaaS. |
 | **[Grove](https://github.com/capad-xyz/grove)** | Git review beside the AI editor. |
 | **[GlyphMaps](https://github.com/capad-xyz/GlyphMaps)** | Next turn on the Nothing Glyph Matrix. |
@@ -18,23 +18,23 @@ I came up through full-stack web work and kept drifting lower: web unlockers, gi
 
 ## Featured
 
-**[searchts](https://github.com/capad-xyz/searchts)** — Fetch a URL or admit you cannot. Escalating unlocker (fingerprinted curl, Jina relay, stealth Chromium), fail-loud on thin pages and login walls. Decodes ChatGPT, Claude, Gemini, Grok, and Poe share links into the full conversation. CLI, MCP 2.x, Claude Code skill. `uvx --from "searchts[mcp]" searchts`. Python, MIT, [0.13.0 on PyPI](https://pypi.org/project/searchts/).
+**[searchts](https://github.com/capad-xyz/searchts)**: Fetch a URL or admit you cannot. Escalating unlocker (fingerprinted curl, Jina relay, stealth Chromium), fail-loud on thin pages and login walls. Decodes ChatGPT, Claude, Gemini, Grok, and Poe share links into the full conversation. CLI, MCP 2.x, Claude Code skill. `uvx --from "searchts[mcp]" searchts`. Python, MIT, [0.15.0 on PyPI](https://pypi.org/project/searchts/).
 
-**[GlyphMaps](https://github.com/capad-xyz/GlyphMaps)** — Google Maps next-turn on the 137-LED Glyph Matrix of a Nothing Phone (4a) Pro, so the phone can sit face down. No Maps API key. Skips the throttled Glyph Toy path, holds the matrix only while navigating, then gives it back. Signed APK, v1.0.0. Kotlin, AGPL-3.0.
+**[GlyphMaps](https://github.com/capad-xyz/GlyphMaps)**: Google Maps next-turn on the 137-LED Glyph Matrix of a Nothing Phone (4a) Pro, so the phone can sit face down. No Maps API key. Skips the throttled Glyph Toy path, holds the matrix only while navigating, then gives it back. Signed APK, v1.0.0. Kotlin, AGPL-3.0.
 
-**[Grove](https://github.com/capad-xyz/grove)** — A free git review companion beside the editor: lane-drawn commit graph, real diffs, find-in-diff, live refresh, worktree-first when several agents are in flight. Electron, React, TypeScript, headless Node git engine. GPL-3.0, alpha.
+**[Grove](https://github.com/capad-xyz/grove)**: A free git review companion beside the editor: lane-drawn commit graph, real diffs, find-in-diff, live refresh, worktree-first when several agents are in flight. Electron, React, TypeScript, headless Node git engine. GPL-3.0, alpha.
 
-**[Dooper](https://github.com/capad-xyz/beep-beep-oss)** — Self-hostable universal inbox: Synapse, mautrix bridges, a Tauri 2 client. Phase 1 verified on real bridged WhatsApp (login, inbox, history, optimistic send, session persistence). Product name Dooper; repo `beep-beep-oss`. AGPL-3.0.
+**[Dooper](https://github.com/capad-xyz/beep-beep-oss)**: Self-hostable universal inbox: Synapse, mautrix bridges, a Tauri 2 client. Phase 1 verified on real bridged WhatsApp (login, inbox, history, optimistic send, session persistence). Product name Dooper; repo `beep-beep-oss`. AGPL-3.0.
 
-**[burncard](https://github.com/capad-xyz/burncard)** — Local AI usage telemetry for Claude Code and Codex, computed from your own logs. `npx burncard`. TypeScript.
+**[burncard](https://github.com/capad-xyz/burncard)**: Local AI usage telemetry for Claude Code and Codex, computed from your own logs. `npx burncard`. TypeScript.
 
-**Hare** — A review-and-report GitHub App (`@hare`) I dogfood on searchts. Summary, severity findings, inline bubbles, grounded in the diff and CI. Comment only. Not a SaaS, and not a CodeRabbit claim. Hare Bot is the separate chat-side template.
+**Hare**: A review-and-report GitHub App (`@hare`) I dogfood on searchts. Summary, severity findings, inline bubbles, grounded in the diff and CI. Comment only. Not a SaaS, and not a CodeRabbit claim. Hare Bot is the separate chat-side template.
 
 Also: [capad.fyi](https://capad.fyi) (Next.js, liquid-glass, Sanity), a Halls of Residence register prototype at [msu.capad.fyi](https://msu.capad.fyi), CoffeeBreath (a Rainmeter widget that takes its color from the album art), and a glass Discord voice overlay.
 
 ## Elsewhere
 
-Contributor on [wmux](https://github.com/amirlehmam/wmux), not my project. As of 2 Oct 2026: 4 merged PRs (#135, #138, #153, #258) and 8 closed issues, mostly diff-pane freezes, CLI timeouts, and agent-browser install discovery.
+Contributor on [wmux](https://github.com/amirlehmam/wmux), not my project. As of 16 Oct 2026: 4 merged PRs (#135, #138, #153, #258) and 9 closed issues, mostly diff-pane freezes, CLI timeouts, and agent-browser install discovery.
 
 ## What I work in
 
