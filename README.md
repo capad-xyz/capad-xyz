@@ -10,7 +10,7 @@ I came up through full-stack web work and kept drifting lower: web unlockers, gi
 
 | | |
 | --- | --- |
-| **[searchts](https://github.com/capad-xyz/searchts)** | Keyless web layer for agents. PyPI **0.15.0**, CLI + MCP. |
+| **[searchts](https://github.com/capad-xyz/searchts)** | Keyless web reader for agents. 8 AI-chat share links. PyPI **0.15.0**, CLI + MCP. |
 | **Hare** | Review-and-report GitHub App, dogfooded on searchts. Not a SaaS. |
 | **[Grove](https://github.com/capad-xyz/grove)** | Git review beside the AI editor. |
 | **[GlyphMaps](https://github.com/capad-xyz/GlyphMaps)** | Next turn on the Nothing Glyph Matrix. |
@@ -18,7 +18,7 @@ I came up through full-stack web work and kept drifting lower: web unlockers, gi
 
 ## Featured
 
-**[searchts](https://github.com/capad-xyz/searchts)**: Fetch a URL or admit you cannot. Escalating unlocker (fingerprinted curl, Jina relay, stealth Chromium), fail-loud on thin pages and login walls. Decodes ChatGPT, Claude, Gemini, Grok, and Poe share links into the full conversation. CLI, MCP 2.x, Claude Code skill. `uvx --from "searchts[mcp]" searchts`. Python, MIT, [0.15.0 on PyPI](https://pypi.org/project/searchts/).
+**[searchts](https://github.com/capad-xyz/searchts)**: Fetch a URL or admit you cannot. Keyless web reader for agents: decodes ChatGPT, Claude, Gemini, Grok, Poe, DeepSeek, Perplexity and Copilot share links into the full conversation; escalates from a fingerprinted curl to a Jina relay to a real browser; and fails loudly instead of returning a fake read. CLI, MCP server, Claude Code skill. `uvx --from "searchts[mcp]" searchts`. Python, MIT, [0.15.0 on PyPI](https://pypi.org/project/searchts/). Public benchmark: 12/12 open pages, 2/7 walled.
 
 **[GlyphMaps](https://github.com/capad-xyz/GlyphMaps)**: Google Maps next-turn on the 137-LED Glyph Matrix of a Nothing Phone (4a) Pro, so the phone can sit face down. No Maps API key. Skips the throttled Glyph Toy path, holds the matrix only while navigating, then gives it back. Signed APK, v1.0.0. Kotlin, AGPL-3.0.
 
